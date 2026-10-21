@@ -24,3 +24,17 @@ class Solution:
                 return i
 
         return -1
+
+
+                                         OR
+
+
+
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        target = needle 
+        index = haystack.find(target)
+        if index >= 0:
+            return index 
+        else :
+            return -1
